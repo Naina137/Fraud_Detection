@@ -96,7 +96,7 @@ I enjoy building practical, real-world projects that solve meaningful problems w
 
 I'm always open to learning, collaborating, and discussing exciting opportunities in **Data Science, Machine Learning, Artificial Intelligence, and Software Development**.
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME
+- 💼 **LinkedIn:** https://www.linkedin.com/in/naina-kumari-06373132b
 - 💻 **GitHub:** https://github.com/Naina137
 - 📧 **Email:** nainakumari32627@gmail.com
 
