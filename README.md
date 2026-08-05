@@ -1,39 +1,82 @@
-#  Credit Card Fraud Detection using Machine Learning
+# Credit Card Fraud Detection using Machine Learning
 
-#  Project Overview
+## Project Overview
 
-Credit card fraud is one of the biggest challenges in the financial industry. This project focuses on building a Machine Learning model that identifies fraudulent transactions by analyzing transaction patterns. Since the dataset is highly imbalanced, the model is evaluated using metrics beyond accuracy, such as Precision, Recall, F1-Score, and the Confusion Matrix.
+Credit card fraud is one of the most critical challenges in the financial industry, leading to significant financial losses each year. This project focuses on developing a Machine Learning model capable of identifying fraudulent credit card transactions by analyzing transaction patterns and customer behavior.
 
-This project demonstrates the complete Machine Learning workflow, from data preprocessing and exploratory data analysis (EDA) to model training, evaluation, and saving the trained model for future use.
+The dataset used in this project is highly imbalanced, making fraud detection a challenging binary classification problem. To address this, the project evaluates model performance using multiple metrics such as Accuracy, Precision, Recall, F1-Score, Classification Report, and Confusion Matrix rather than relying solely on accuracy.
+
+This project demonstrates an end-to-end Machine Learning workflow, including data preprocessing, exploratory data analysis (EDA), feature scaling, model training, model comparison, evaluation, and model serialization for future deployment.
 
 ---
 
-# Objectives
+## Project Objectives
 
 - Analyze credit card transaction data.
-- Handle an imbalanced dataset effectively.
-- Train a Machine Learning model for fraud detection.
-- Evaluate model performance using appropriate metrics.
-- Save the trained model for future predictions.
+- Perform data preprocessing and cleaning.
+- Handle the highly imbalanced dataset.
+- Explore transaction patterns using data visualization.
+- Train multiple Machine Learning models.
+- Compare Logistic Regression and Random Forest Classifier.
+- Evaluate model performance using multiple metrics.
+- Save the best-performing model for future predictions.
+- Build a foundation for real-time fraud detection systems.
 
 ---
 
-##  Technologies Used
+## Technologies Used
+
+### Programming Language
 
 - Python
+
+### Data Analysis
+
 - Pandas
 - NumPy
+
+### Data Visualization
+
 - Matplotlib
+- Seaborn
+
+### Machine Learning
+
 - Scikit-learn
+  - Train-Test Split
+  - StandardScaler
+  - Logistic Regression
+  - Random Forest Classifier
+  - Accuracy Score
+  - Precision Score
+  - Recall Score
+  - F1-Score
+  - Classification Report
+  - Confusion Matrix
+
+### Development Environment
+
 - Jupyter Notebook
+- Visual Studio Code
+
+### Model Serialization
+
 - Pickle
+
+### Version Control
+
+- Git
+- GitHub
 
 ---
 
 ## Project Structure
 
-```
+```text
 Fraud_Detection/
+│
+├── data/
+│   └── creditcard.csv
 │
 ├── notebook/
 │   └── Fraud_Detection.ipynb
@@ -41,65 +84,117 @@ Fraud_Detection/
 ├── models/
 │   └── fraud_model.pkl
 │
+├── images/
+│   ├── fraud_vs_genuine.png
+│   ├── time_distribution.png
+│   ├── transaction_amount.png
+│   └── confusion_matrix.png
+│
+├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-# Project Workflow
+## Project Workflow
 
 1. Load the credit card transaction dataset.
-2. Perform data preprocessing and cleaning.
-3. Conduct Exploratory Data Analysis (EDA).
-4. Train the Machine Learning model.
-5. Evaluate the model using multiple performance metrics.
-6. Save the trained model for future predictions.
+2. Explore and preprocess the dataset.
+3. Handle missing values and duplicate records.
+4. Analyze the class distribution.
+5. Perform Exploratory Data Analysis (EDA).
+6. Split the dataset into training and testing sets.
+7. Apply feature scaling using StandardScaler.
+8. Train Logistic Regression and Random Forest Classifier.
+9. Compare both models using multiple evaluation metrics.
+10. Save the best-performing model using Pickle.
+
+---
+
+## Exploratory Data Analysis
+
+### Fraud vs Genuine Transactions
+
+![Fraud vs Genuine Transactions](images/fraud_vs_genuine.png)
+
+This visualization highlights the class imbalance between fraudulent and genuine transactions.
+
+---
+
+### Time Distribution of Transactions
+
+![Time Distribution](images/time_distribution.png)
+
+This graph illustrates how transactions are distributed over time.
+
+---
+
+### Transaction Amount by Class
+
+![Transaction Amount by Class](images/transaction_amount.png)
+
+This visualization compares transaction amounts for genuine and fraudulent transactions.
 
 ---
 
 ## Model Evaluation
 
-The model is evaluated using:
+Both Logistic Regression and Random Forest models were evaluated using multiple performance metrics.
 
 - Accuracy
 - Precision
 - Recall
 - F1-Score
+- Classification Report
 - Confusion Matrix
 
-> **Note:** Since fraud detection datasets are highly imbalanced, accuracy alone can be misleading. Precision, Recall, F1-Score, and the Confusion Matrix provide a much better understanding of the model's real-world performance.
+Since fraud detection datasets are highly imbalanced, Accuracy alone is not sufficient. Precision, Recall, and F1-Score provide a more reliable measure of model performance.
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+The Confusion Matrix illustrates the number of correctly and incorrectly classified transactions, helping evaluate the effectiveness of the trained model.
 
 ---
 
-#  Future Improvements
+## Future Improvements
 
-- Hyperparameter tuning
-- Compare multiple Machine Learning algorithms
-- Deploy the model using Flask or FastAPI
-- Build a real-time fraud detection web application
-- Improve model performance with advanced techniques
+- Compare additional Machine Learning algorithms such as XGBoost and LightGBM.
+- Perform Hyperparameter Tuning.
+- Handle class imbalance using SMOTE.
+- Improve feature engineering techniques.
+- Deploy the model using Flask or FastAPI.
+- Build a real-time credit card fraud detection web application.
+- Integrate REST APIs for live transaction prediction.
 
 ---
 
-#  About the Author
+## About the Author
 
 **Naina Kumari**
 
-Computer Science & Engineering (Data Science) student passionate about Data Science, Machine Learning, Artificial Intelligence, and Data Analytics.
+Computer Science & Engineering (Data Science) student with a strong interest in Data Science, Machine Learning, Artificial Intelligence, and Data Analytics.
 
 I enjoy building practical, real-world projects that solve meaningful problems while continuously improving my technical skills. My goal is to develop impactful AI-driven solutions and contribute to innovative technology.
 
 ---
 
-#  Let's Connect
+## Connect with the Author
 
-I'm always open to learning, collaborating, and discussing exciting opportunities in **Data Science, Machine Learning, Artificial Intelligence, and Software Development**.
+**GitHub**
 
--  **LinkedIn:** https://www.linkedin.com/in/naina-kumari-06373132b
--  **GitHub:** https://github.com/Naina137
--  **Email:** nainakumari32627@gmail.com
+https://github.com/Naina137
 
-If you found this project helpful or have any suggestions, feel free to connect with me. I'm always happy to learn, collaborate, and build impactful projects together.
+**LinkedIn**
 
-⭐ **If you like this project, don't forget to give it a Star!**
+https://www.linkedin.com/in/naina-kumari-06373132b
+
+**Email**
+
+nainakumari32627@gmail.com
+
+If you found this project useful or have any suggestions, feel free to connect. Contributions, feedback, and collaboration are always welcome.
+
+⭐ If you like this project, consider giving it a Star.
