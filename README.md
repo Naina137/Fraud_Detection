@@ -111,31 +111,29 @@ Fraud_Detection/
 10. Save the best-performing model using Pickle.
 
 ---
-
-## Exploratory Data Analysis
+## Results and Visualizations
 
 ### Fraud vs Genuine Transactions
 
-![Fraud vs Genuine Transactions](images/fraud_vs_genuine.png)
-
-This visualization highlights the class imbalance between fraudulent and genuine transactions.
+![Fraud vs Genuine](fraud_vs_genuine.png)
 
 ---
 
-### Time Distribution of Transactions
+### Time Distribution
 
-![Time Distribution](images/time_distribution.png)
-
-This graph illustrates how transactions are distributed over time.
+![Time Distribution](time_distribution.png)
 
 ---
 
 ### Transaction Amount by Class
 
-![Transaction Amount by Class](images/transaction_amount.png)
+![Transaction Amount](transaction_amount.png)
 
-This visualization compares transaction amounts for genuine and fraudulent transactions.
+---
 
+### Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
 ---
 
 ## Model Evaluation
@@ -151,11 +149,6 @@ Both Logistic Regression and Random Forest models were evaluated using multiple 
 
 Since fraud detection datasets are highly imbalanced, Accuracy alone is not sufficient. Precision, Recall, and F1-Score provide a more reliable measure of model performance.
 
-### Confusion Matrix
-
-![Confusion Matrix](images/confusion_matrix.png)
-
-The Confusion Matrix illustrates the number of correctly and incorrectly classified transactions, helping evaluate the effectiveness of the trained model.
 
 ---
 
