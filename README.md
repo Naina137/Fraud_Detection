@@ -1,6 +1,6 @@
-# 💳 Credit Card Fraud Detection using Machine Learning
+#  Credit Card Fraud Detection using Machine Learning
 
-# 📖 Project Overview
+#  Project Overview
 
 Credit card fraud is one of the biggest challenges in the financial industry. This project focuses on building a Machine Learning model that identifies fraudulent transactions by analyzing transaction patterns. Since the dataset is highly imbalanced, the model is evaluated using metrics beyond accuracy, such as Precision, Recall, F1-Score, and the Confusion Matrix.
 
@@ -8,7 +8,7 @@ This project demonstrates the complete Machine Learning workflow, from data prep
 
 ---
 
-# 🎯 Objectives
+# Objectives
 
 - Analyze credit card transaction data.
 - Handle an imbalanced dataset effectively.
@@ -18,7 +18,7 @@ This project demonstrates the complete Machine Learning workflow, from data prep
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -30,7 +30,7 @@ This project demonstrates the complete Machine Learning workflow, from data prep
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Fraud_Detection/
@@ -47,7 +47,7 @@ Fraud_Detection/
 
 ---
 
-# 🔄 Project Workflow
+# Project Workflow
 
 1. Load the credit card transaction dataset.
 2. Perform data preprocessing and cleaning.
@@ -58,7 +58,7 @@ Fraud_Detection/
 
 ---
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 The model is evaluated using:
 
@@ -72,7 +72,7 @@ The model is evaluated using:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 - Hyperparameter tuning
 - Compare multiple Machine Learning algorithms
@@ -82,9 +82,9 @@ The model is evaluated using:
 
 ---
 
-# 👩‍💻 About the Author
+#  About the Author
 
-**Naina Gupta**
+**Naina Kumari**
 
 Computer Science & Engineering (Data Science) student passionate about Data Science, Machine Learning, Artificial Intelligence, and Data Analytics.
 
@@ -92,13 +92,13 @@ I enjoy building practical, real-world projects that solve meaningful problems w
 
 ---
 
-# 🤝 Let's Connect
+#  Let's Connect
 
 I'm always open to learning, collaborating, and discussing exciting opportunities in **Data Science, Machine Learning, Artificial Intelligence, and Software Development**.
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/naina-kumari-06373132b
-- 💻 **GitHub:** https://github.com/Naina137
-- 📧 **Email:** nainakumari32627@gmail.com
+-  **LinkedIn:** https://www.linkedin.com/in/naina-kumari-06373132b
+-  **GitHub:** https://github.com/Naina137
+-  **Email:** nainakumari32627@gmail.com
 
 If you found this project helpful or have any suggestions, feel free to connect with me. I'm always happy to learn, collaborate, and build impactful projects together.
 
